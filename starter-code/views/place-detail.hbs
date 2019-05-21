@@ -1,0 +1,7 @@
+<h2>{{detail.name}}</h2>
+<p>Name: {{detail.name}}</p>
+<p>Type: {{detail.type}}</p>
+<form action="/place/delete/{{detail._id}}" method="POST">
+  <button type="submit">Delete</button>
+</form>
+<button><a href="/place/edit/{{detail._id}}">Edit</a></button>
